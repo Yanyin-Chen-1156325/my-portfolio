@@ -170,7 +170,7 @@ const App: React.FC = () => {
             <div className="about-image-container">
               <div className="about-image">
                 <div className="image-overlay"></div>
-                <img src="/image.png" alt="Profile" />
+                <img src="./image.png" alt="Profile" />
                 <div className="image-border"></div>
               </div>
             </div>
@@ -193,7 +193,7 @@ const App: React.FC = () => {
               <div className="project-image">
                 <div className="image-border"></div>
                 <img 
-                  src="/p1.png" 
+                  src="./p1.png" 
                   alt="Fresh Veggies Store" 
                   className="project-img" 
                 />
@@ -214,9 +214,9 @@ const App: React.FC = () => {
                   <span>JavaScript</span>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  {/* <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                     <Github size={22} />
-                  </a>
+                  </a> */}
                   <a href="https://annchen1156325.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">
                     <ExternalLink size={22} />
                   </a>
@@ -244,9 +244,9 @@ const App: React.FC = () => {
                   <span>JavaScript</span>
                 </div>
                 <div className="project-links">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  {/* <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                     <Github size={22} />
-                  </a>
+                  </a> */}
                   <a href="https://yanyinchen1156325.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">
                     <ExternalLink size={22} />
                   </a>
@@ -255,7 +255,7 @@ const App: React.FC = () => {
               <div className="project-image">
                 <div className="image-border"></div>
                 <img 
-                  src="/p2.png" 
+                  src="./p2.png" 
                   alt="LLC Issue Tracker" 
                   className="project-img" 
                 />
