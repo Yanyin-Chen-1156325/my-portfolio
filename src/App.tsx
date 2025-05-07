@@ -142,7 +142,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* About Section - Updated without image */}
       <section id="about" className="about-section">
         <div className="bg-circle circle-top-left"></div>
         <div className="bg-circle circle-bottom-right"></div>
@@ -152,28 +152,19 @@ const App: React.FC = () => {
             <h2>About Me</h2>
             <div className="header-line"></div>
           </div>
-          <div className="about-grid">
-            <div className="about-text">
-              <p>
-                With a solid background in IT from the manufacturing industry, I've developed a deep understanding of how technology can streamline business processes and enhance productivity.
-              </p>
-              <p>
-                Currently pursuing my master's degree, I'm focusing on expanding my skills in modern web development frameworks and methodologies, with the goal of transitioning into a full stack development role.
-              </p>
-              <p>
-                I have a particular interest in cloud technologies and AI applications, and I'm excited about exploring how these cutting-edge technologies can be integrated into web applications to create more intelligent and responsive user experiences.
-              </p>
-              <p>
-                My approach combines technical knowledge with creative problem-solving, always keeping the end user in mind when designing and implementing solutions.
-              </p>
-            </div>
-            <div className="about-image-container">
-              <div className="about-image">
-                <div className="image-overlay"></div>
-                <img src="./image.png" alt="Profile" />
-                <div className="image-border"></div>
-              </div>
-            </div>
+          <div className="about-content">
+            <p>
+              With a solid background in IT from the manufacturing industry, I've developed a deep understanding of how technology can streamline business processes and enhance productivity.
+            </p>
+            <p>
+              Currently pursuing my master's degree, I'm focusing on expanding my skills in modern web development frameworks and methodologies, with the goal of transitioning into a full stack development role.
+            </p>
+            <p>
+              I have a particular interest in cloud technologies and AI applications, and I'm excited about exploring how these cutting-edge technologies can be integrated into web applications to create more intelligent and responsive user experiences.
+            </p>
+            <p>
+              My approach combines technical knowledge with creative problem-solving, always keeping the end user in mind when designing and implementing solutions.
+            </p>
           </div>
         </div>
       </section>
@@ -287,9 +278,8 @@ const App: React.FC = () => {
               <ul className="skill-list">
                 <li>Python</li>
                 <li>Flask Framework</li>
-                <li>MySQL & Database Design</li>
-                <li>API Development</li>
-                <li>Server Administration</li>
+                <li>MySQL & SQL Server</li>
+                <li>C#</li>
               </ul>
             </div>
             
@@ -305,7 +295,6 @@ const App: React.FC = () => {
                 <li>JavaScript</li>
                 <li>React.js</li>
                 <li>Responsive Design</li>
-                <li>UI/UX Principles</li>
               </ul>
             </div>
             
@@ -318,40 +307,13 @@ const App: React.FC = () => {
               </h3>
               <ul className="skill-list">
                 <li>Git & Version Control</li>
-                <li>Cloud Services</li>
                 <li>IT Infrastructure</li>
                 <li>System Administration</li>
-                <li>AI Applications</li>
+                <li>Cloud Services</li>
               </ul>
             </div>
           </div>
           
-          {/* Development Process */}
-          <div className="process-section">
-            <h3>My Development Process</h3>
-            <div className="process-grid">
-              <div className="process-card">
-                <div className="process-number">01</div>
-                <h4>Research</h4>
-                <p>Understanding requirements and exploring potential solutions</p>
-              </div>
-              <div className="process-card">
-                <div className="process-number">02</div>
-                <h4>Design</h4>
-                <p>Creating wireframes and planning architecture</p>
-              </div>
-              <div className="process-card">
-                <div className="process-number">03</div>
-                <h4>Develop</h4>
-                <p>Building robust and clean code solutions</p>
-              </div>
-              <div className="process-card">
-                <div className="process-number">04</div>
-                <h4>Deploy</h4>
-                <p>Testing, refining, and launching solutions</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
